@@ -615,6 +615,10 @@ section {
   margin: 0 auto 50px;
 }
 
+.contact-cta > p + .btn {
+  margin-top: 26px;
+}
+
 .contact-form {
   max-width: 640px;
   margin: 0 auto;
