@@ -1,0 +1,30 @@
+# System
+.DS_Store
+
+# Local dev tooling (not part of the deployed site)
+.claude/
+node_modules/
+
+# Raw/original photo sources (processed, web-ready versions live in images/)
+# Anchored to repo root (/) so they don't accidentally match same-named files in images/
+/IMG_0485.JPG
+/IMG_0487.JPG
+/IMG_0489.JPG
+/IMG_0490.JPG
+/IMG_0491.JPG
+/IMG_0492.JPG
+/IMG_0495.JPG
+/Logo w planie.png
+/poprawionelogo.png
+/hero.JPG
+/jakpracujemy.JPG
+/jakpracujemy1JPG.JPG
+/kontakt.JPG
+/onas.JPG
+/uslugi.JPG
+/uslugi1.JPG
+
+# Internal planning documents (not for public site)
+dziennik_projektu.txt
+zalozenia_projektowe.txt
+prompt_dla_chatgpt_tresci.txt
