@@ -27,7 +27,7 @@
   "name": "W PLANIE",
   "url": "https://wplanie.pl/",
   "logo": "https://wplanie.pl/images/logo.png",
-  "image": "https://wplanie.pl/images/hero.jpg",
+  "image": "https://wplanie.pl/images/hero-3.jpg",
   "description": "Wsparcie administracyjne dla firm: dokumenty, korespondencja, KSeF, e-Doręczenia, organizacja biura, spotkań i wydarzeń firmowych.",
   "telephone": "+48517868406",
   "email": "agencjawplanie@gmail.com",
@@ -68,7 +68,11 @@
 </header>
 
 <section class="hero">
-  <img class="img-photo" src="images/hero.jpg" alt="Biurko z laptopem, notatnikiem i długopisem" width="736" height="1104" fetchpriority="high">
+  <picture>
+    <source media="(max-width: 700px)" srcset="images/hero-3-mobile.webp" type="image/webp">
+    <source srcset="images/hero-3.webp" type="image/webp">
+    <img class="img-photo" src="images/hero-3.jpg" alt="Białe biurko z laptopem, filiżanką kawy, ołówkiem i notatnikiem" width="2400" height="800" fetchpriority="high">
+  </picture>
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <p class="hero-tagline">Administracja | Organizacja Biura | Wsparcie dla Firm</p>
