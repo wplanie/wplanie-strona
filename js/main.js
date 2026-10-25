@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toggle.addEventListener("click", () => {
       const isOpen = navLinks.classList.toggle("open");
       toggle.setAttribute("aria-expanded", isOpen);
+      toggle.setAttribute("aria-label", isOpen ? "Zamknij menu" : "Otwórz menu");
     });
   }
 
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (!response.ok) throw new Error("Formspree error");
           form.reset();
           if (note) {
-            note.textContent = "Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce.";
+            note.textContent = "Dziękuję! Wiadomość została wysłana — odezwę się wkrótce.";
             note.classList.add("form-note-success");
           }
         })
